@@ -21,3 +21,4 @@ def prime_factor():
 
 # Works, but could make it better by removing duplicates and 1's
 prime_factor()
+    
