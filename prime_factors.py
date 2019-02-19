@@ -3,8 +3,9 @@ from factor import *
 
 # Find the prime factorization of a number
 
-def prime_factor(number):
+def prime_factor():
 
+    number = input("Number: ")
     factors = factor(number)
     prime_factors = []
 
@@ -14,8 +15,9 @@ def prime_factor(number):
         if len(test) == 2:
             prime_factors.append(number)
 
+    print(prime_factors)
     return prime_factors
 
-print(prime_factor(600851475143))
 
-# Works, but could make it better by removing duplicates and 1's 
+# Works, but could make it better by removing duplicates and 1's
+prime_factor()
